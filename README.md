@@ -1,2 +1,2 @@
-# dread-trove
-:skull: Ancient secrets only known to the Cauldron
+# Dreat Trove
+Keeping things secret in plain sight...
