@@ -1,2 +1,2 @@
-# Dreat Trove
+# Dread Trove
 Keeping things secret in plain sight...
