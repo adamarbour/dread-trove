@@ -1,7 +1,9 @@
 keys:
   - &master_key age1aaqhj07jqqnqnga23jgtmnk9c3yw4ym5ff399w5s3w77kj6835ns4zhdn7
+  - &host_cassian age1dun50tm9uw4lqnq8jqyayk3995px8xcgq5wkcdlkhhwn0z82h5jq6gvulr
 creation_rules:
   - path_regex: secrets/[^/]+\.(yaml|json|env|ini)$
     key_groups:
     - age:
       - *master_key
+      - *host_cassian
