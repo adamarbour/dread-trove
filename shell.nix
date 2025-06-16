@@ -9,7 +9,7 @@ in pkgs.mkShellNoCC {
     git config user.name "Adam Arbour"
     git config user.email "845679+adamarbour@users.noreply.github.com"
     git config init.defaultBranch main
-    export SOPS_AGE_KEY="$(grep ^AGE-SECRET-KEY ./keys.txt)"
+    export SOPS_AGE_KEY="$(grep ^AGE-SECRET-KEY ./key.txt)"
   '';
   
   packages = with pkgs; [
